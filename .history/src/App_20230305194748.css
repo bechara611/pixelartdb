@@ -1,0 +1,24 @@
+
+.pixel{
+  width: calc(100%/20);
+  height: calc(100%/20);
+  border: 1px solid black;
+  margin: 1px;
+  box-sizing: border-box;
+
+}
+.active{
+  background: green;
+}
+
+.contenedor{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+ 
+
+height: 90vh;
+
+}

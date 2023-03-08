@@ -1,0 +1,23 @@
+
+.pixel{
+  width: calc(100%/20);
+  height: calc(100%/20);
+  border: 1px solid black;
+
+
+}
+.active{
+  background: green;
+}
+
+.contenedor{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  border: 1px solid grey;
+width: 100vw;
+height: 100vh;
+
+}

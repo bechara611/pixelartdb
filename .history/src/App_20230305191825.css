@@ -1,0 +1,11 @@
+*{
+  background: blue;
+}
+.pixel{
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+}
+.active{
+  background: green;
+}

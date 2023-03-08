@@ -1,0 +1,116 @@
+.fondo {
+  height: 100vh;
+
+}
+
+.contorno {
+  border: 5px solid white;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-mayor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+
+}
+
+.contenedor-mayor2 {
+  width: 80vw;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contenedor-05 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.derecha {
+  width: 80vw;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.pixel {
+  width: 10px;
+  height: 10px;
+  border: 1px solid rgb(0, 0, 0);
+
+  box-sizing: border-box;
+
+}
+
+.active {
+  background: transparent;
+}
+.cursorBorrador{
+  cursor: url(./assets/borrador.png), pointer;
+}
+.cursorLapiz{
+cursor: url(./assets/pencil3.png), default;
+}
+.contenedor {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80vw;
+  height: 80vh;
+  max-width: 80vw;
+  max-height: 80vh;
+}
+
+.icono {
+  font-size: 30px;
+  color: white;
+  margin-right: 5px;
+}
+.borrador{
+  font-size: 30px;
+  color: white;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.borrador:hover{
+  font-size: 32px;
+  color: rgb(191, 180, 180);
+  transition: all .1s ease;
+}
+
+@keyframes rotar {
+  from {
+    transform: rotate(32deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.icono:hover {
+  color: rgb(171, 193, 216);
+  cursor: pointer;
+  animation-name: rotar;
+  animation-duration: 1s;
+  transition: all 1s ease;
+  animation-iteration-count: infinite;
+}
+
+.selector{
+cursor: pointer;
+}
+
+@media(max-width:200px){
+  .borrador{
+    font-size: 15px;
+  }
+}

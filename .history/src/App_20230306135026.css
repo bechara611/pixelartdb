@@ -1,0 +1,40 @@
+.fondo{
+  height: 100vh;
+}
+
+.contenedor-mayor{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+}
+
+.pixel {
+  width: 19px;
+  height: 19px;
+  border: 1px solid black;
+
+  box-sizing: border-box;
+
+}
+
+.active {
+  background: green;
+}
+
+.contenedor {
+ border-color: aliceblue;
+ border: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80vw;
+  height: 80vh;
+  max-width: 80vw;
+  max-height: 80vh;
+
+
+
+}
